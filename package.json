@@ -1,0 +1,25 @@
+{
+  "name": "create-comp",
+  "version": "1.0.0",
+  "description": "A smart CLI tool to generate React components with Tailwind or CSS automatically",
+  "main": "index.js",
+  "bin": {
+    "create-comp": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node ./bin/index.js"
+  },
+  "keywords": [
+    "react",
+    "cli",
+    "component-generator",
+    "tailwind",
+    "developer-tools"
+  ],
+  "author": "Tarun Makode",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.3.4",
+    "inquirer": "^8.2.7"
+  }
+}
